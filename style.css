@@ -35,7 +35,7 @@ html {
 body {
   font-family: 'Montserrat Alternates';
   color: white;
-  background-image: url('./Images/Background.jpg'); /* Замените на путь к вашему изображению */
+  background-image: url('./Images/background.jpg'); /* Замените на путь к вашему изображению */
     background-size: cover; /* Покрывает весь контейнер */
     background-position: center; /* Центрирует изображение */
     height: 100vh; /* Высота блока равна высоте окна просмотра */
