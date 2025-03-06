@@ -9,33 +9,33 @@ html {
 
 @font-face {
   font-family: 'Montserrat Alternates';
-  src: url('pizza/Fonts/MontserratAlternates-Regular.ttf');
+  src: url('KraftHammer/pizza/Fonts/MontserratAlternates-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Montserrat Alternates Italic';
-  src: url('pizza/Fonts/MontserratAlternates-Italic.ttf');
+  src: url('KraftHammer/pizza/Fonts/MontserratAlternates-Italic.ttf');
 }
 
 @font-face {
   font-family: 'MontserratAlternates-Light';
-  src: url('pizza/Fonts/MontserratAlternates-Light.ttf');
+  src: url('KraftHammer/pizza/Fonts/MontserratAlternates-Light.ttf');
 }
 
 @font-face {
   font-family: 'Montserrat Alternates Medium';
-  src: url('pizza/Fonts/MontserratAlternates-Medium.ttf');
+  src: url('KraftHammer/pizza/Fonts/MontserratAlternates-Medium.ttf');
 }
 
 @font-face {
   font-family: 'Montserrat Alternates Light Italic';
-  src: url('pizza/Fonts/MontserratAlternates-LightItalic.ttf');
+  src: url('KraftHammer/pizza/Fonts/MontserratAlternates-LightItalic.ttf');
 }
 
 body {
   font-family: 'Montserrat Alternates';
   color: white;
-  background-image: url('pizza/Images/Background.jpg'); /* Замените на путь к вашему изображению */
+  background-image: url('KraftHammer/pizza/Images/Background.jpg'); /* Замените на путь к вашему изображению */
     background-size: cover; /* Покрывает весь контейнер */
     background-position: center; /* Центрирует изображение */
     height: 100vh; /* Высота блока равна высоте окна просмотра */
