@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша пицца</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <script src="toggleActive.js"></script>
+    <header>
+        <div class="container">
+                <button class="logo" onclick="window.location = 'index.html'">
+                    <img src="Images/logo.svg" alt="logo" width="64px"> <!--Обновить лого на более чёткое-->
+                    <h1>Наша пицца</h1>
+                </button>
+            <div class="infoBlock">
+                <div class="infoContent">
+                    <img src="Images/Header_icon_1.png" alt="Geo">
+                    <p>с. Павловск, улица Ленина, 12</p>
+                </div>
+                <div class="infoContent">
+                    <img src="Images/Header_icon_2.png" alt="clock">
+                    <p>c 9:00 до 21:00</p>
+                </div>
+                <div class="infoContent">
+                    <img src="Images/Header_icon_3.png" alt="phone">
+                    <p>+7 385-260-66-62</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="imageContainer">
+        <img src="Images/Image zone.svg" alt="Пицца">
+    </div>
+
+    
+        <nav class="menu">
+            <button class="button">
+                Корзина
+            </button>
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <p>Пицца</p>
+                </li>
+                <li class="menu-item">
+                    <p>Шаурма</p>
+                </li>
+                <li class="menu-item">
+                    <p>Салаты</p>
+                </li>
+                <li class="menu-item">
+                    <p>Роллы</p>
+                </li>
+                <li class="menu-item">
+                    <p>Чизкейки</p>
+                </li>
+                <li class="menu-item">
+                    <p>Круасанны</p>
+                </li>
+                <li class="menu-item">
+                    <p>Напитки</p>
+                </li>
+            </ul>
+        </nav>
+    </div>
+<!--Поправить обрезку левого края при скролле-->
+    <div class="container-left">
+        <div class="Order-high-text">
+            <h2>Часто заказывают</h2>
+        </div>
+        <div class="container-card">
+            <div class="card-horizontal">
+                <div class="container-card-image">
+                    <img src="Images/pizza.svg" alt="Здесь картинка" width="80px">
+                </div>
+                <div class="container-card-information">
+                    <div class="container-card-name">
+                        <h2>4 мяса</h2>
+                    </div>
+                    <div class="container-card-price">
+                            <h2>От 560 рублей</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card-horizontal">
+                <div class="container-card-image">
+                    <img src="Images/pizza.svg" alt="Здесь картинка" width="80px">
+                </div>
+                <div class="container-card-information">
+                    <div class="container-card-name">
+                        <h2>4 мяса</h2>
+                    </div>
+                    <div class="container-card-price">
+                            <h2>От 560 рублей</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card-horizontal">
+                <div class="container-card-image">
+                    <img src="Images/pizza.svg" alt="Здесь картинка" width="80px">
+                </div>
+                <div class="container-card-information">
+                    <div class="container-card-name">
+                        <h2>4 мяса</h2>
+                    </div>
+                    <div class="container-card-price">
+                            <h2>От 560 рублей</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card-horizontal">
+                <div class="container-card-image">
+                    <img src="Images/pizza.svg" alt="Здесь картинка" width="80px">
+                </div>
+                <div class="container-card-information">
+                    <div class="container-card-name">
+                        <h2>4 мяса</h2>
+                    </div>
+                    <div class="container-card-price">
+                            <h2>От 560 рублей</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-left">
+        <div class="header-text">
+            <h2>Новинки</h2>
+        </div>
+        <div class="cards-row">
+            <div class="card">
+                <div class="image-zone">
+                    <img src="Images/pizza.svg" height="300px" width="300px">
+                </div>
+                <div class="text-zone">
+                    <div class="main-text-card">
+                        <h4>4 мяса</h4>
+                    </div>
+                    <div class="desc-text-card">
+                        <p>Состав: сервелат, ветчина, пепперони, куриное филе, сыр моцарелла, соус томатный, орегано</p>
+                    </div>
+                </div>
+                
+                <div class="pizza-size-select">
+                    <div class="small-text">
+                        <h5>Размеры</h5>
+                    </div>
+                    <div class="button-zone">
+                        <div class="button-size" data-size="30cm">
+                            30 см
+                        </div>
+                        <div class="button-size-not-selected" data-size="40cm">
+                            40 см
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="price-and-button-zone">
+                    <div class="price">
+                        <p>От 560 ₽</p>
+                    </div>
+                    <div class="button-buy">
+                        <img src="Images/ShoppingCartSimple.png" height="24px" width="24px">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-zone">
+                    <img src="Images/pizza.svg" height="300px" width="300px">
+                </div>
+                <div class="text-zone">
+                    <div class="main-text-card">
+                        <h4>4 мяса</h4>
+                    </div>
+                    <div class="desc-text-card">
+                        <p>Состав: сервелат, ветчина, пепперони, куриное филе, сыр моцарелла, соус томатный, орегано</p>
+                    </div>
+                </div>
+                
+                <div class="pizza-size-select">
+                    <div class="small-text">
+                        <h5>Размеры</h5>
+                    </div>
+                    <div class="button-zone">
+                        <div class="button-size" data-size="30cm">
+                            30 см
+                        </div>
+                        <div class="button-size-not-selected" data-size="40cm">
+                            40 см
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="price-and-button-zone">
+                    <div class="price">
+                        <p>От 560 ₽</p>
+                    </div>
+                    <div class="button-buy">
+                        <img src="Images/ShoppingCartSimple.png" height="24px" width="24px">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-zone">
+                    <img src="Images/pizza.svg" height="300px" width="300px">
+                </div>
+                <div class="text-zone">
+                    <div class="main-text-card">
+                        <h4>4 мяса</h4>
+                    </div>
+                    <div class="desc-text-card">
+                        <p>Состав: сервелат, ветчина, пепперони, куриное филе, сыр моцарелла, соус томатный, орегано</p>
+                    </div>
+                </div>
+                
+                <div class="pizza-size-select">
+                    <div class="small-text">
+                        <h5>Размеры</h5>
+                    </div>
+                    <div class="button-zone">
+                        <div class="button-size" data-size="30cm">
+                            30 см
+                        </div>
+                        <div class="button-size-not-selected" data-size="40cm">
+                            40 см
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="price-and-button-zone">
+                    <div class="price">
+                        <p>От 560 ₽</p>
+                    </div>
+                    <div class="button-buy">
+                        <img src="Images/ShoppingCartSimple.png" height="24px" width="24px">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-zone">
+                    <img src="Images/pizza.svg" height="300px" width="300px">
+                </div>
+                <div class="text-zone">
+                    <div class="main-text-card">
+                        <h4>4 мяса</h4>
+                    </div>
+                    <div class="desc-text-card">
+                        <p>Состав: сервелат, ветчина, пепперони, куриное филе, сыр моцарелла, соус томатный, орегано</p>
+                    </div>
+                </div>
+                
+                <div class="pizza-size-select">
+                    <div class="small-text">
+                        <h5>Размеры</h5>
+                    </div>
+                    <div class="button-zone">
+                        <div class="button-size" data-size="30cm">
+                            30 см
+                        </div>
+                        <div class="button-size-not-selected" data-size="40cm">
+                            40 см
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="price-and-button-zone">
+                    <div class="price">
+                        <p>От 560 ₽</p>
+                    </div>
+                    <div class="button-buy">
+                        <img src="Images/ShoppingCartSimple.png" height="24px" width="24px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-row">
+            <div class="card">
+                <div class="image-zone">
+                    <img src="Images/pizza.svg" height="300px" width="300px">
+                </div>
+                <div class="text-zone">
+                    <div class="main-text-card">
+                        <h4>4 мяса</h4>
+                    </div>
+                    <div class="desc-text-card">
+                        <p>Состав: сервелат, ветчина, пепперони, куриное филе, сыр моцарелла, соус томатный, орегано</p>
+                    </div>
+                </div>
+                
+                <div class="pizza-size-select">
+                    <div class="small-text">
+                        <h5>Размеры</h5>
+                    </div>
+                    <div class="button-zone">
+                        <div class="button-size" data-size="30cm">
+                            30 см
+                        </div>
+                        <div class="button-size-not-selected" data-size="40cm">
+                            40 см
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="price-and-button-zone">
+                    <div class="price">
+                        <p>От 560 ₽</p>
+                    </div>
+                    <div class="button-buy">
+                        <img src="Images/ShoppingCartSimple.png" height="24px" width="24px">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-zone">
+                    <img src="Images/pizza.svg" height="300px" width="300px">
+                </div>
+                <div class="text-zone">
+                    <div class="main-text-card">
+                        <h4>4 мяса</h4>
+                    </div>
+                    <div class="desc-text-card">
+                        <p>Состав: сервелат, ветчина, пепперони, куриное филе, сыр моцарелла, соус томатный, орегано</p>
+                    </div>
+                </div>
+                
+                <div class="pizza-size-select">
+                    <div class="small-text">
+                        <h5>Размеры</h5>
+                    </div>
+                    <div class="button-zone">
+                        <div class="button-size" data-size="30cm">
+                            30 см
+                        </div>
+                        <div class="button-size-not-selected" data-size="40cm">
+                            40 см
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="price-and-button-zone">
+                    <div class="price">
+                        <p>От 560 ₽</p>
+                    </div>
+                    <div class="button-buy">
+                        <img src="Images/ShoppingCartSimple.png" height="24px" width="24px">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-zone">
+                    <img src="Images/pizza.svg" height="300px" width="300px">
+                </div>
+                <div class="text-zone">
+                    <div class="main-text-card">
+                        <h4>4 мяса</h4>
+                    </div>
+                    <div class="desc-text-card">
+                        <p>Состав: сервелат, ветчина, пепперони, куриное филе, сыр моцарелла, соус томатный, орегано</p>
+                    </div>
+                </div>
+                
+                <div class="pizza-size-select">
+                    <div class="small-text">
+                        <h5>Размеры</h5>
+                    </div>
+                    <div class="button-zone">
+                        <div class="button-size" data-size="30cm">
+                            30 см
+                        </div>
+                        <div class="button-size-not-selected" data-size="40cm">
+                            40 см
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="price-and-button-zone">
+                    <div class="price">
+                        <p>От 560 ₽</p>
+                    </div>
+                    <div class="button-buy">
+                        <img src="Images/ShoppingCartSimple.png" height="24px" width="24px">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-zone">
+                    <img src="Images/pizza.svg" height="300px" width="300px">
+                </div>
+                <div class="text-zone">
+                    <div class="main-text-card">
+                        <h4>4 мяса</h4>
+                    </div>
+                    <div class="desc-text-card">
+                        <p>Состав: сервелат, ветчина, пепперони, куриное филе, сыр моцарелла, соус томатный, орегано</p>
+                    </div>
+                </div>
+                
+                <div class="pizza-size-select">
+                    <div class="small-text">
+                        <h5>Размеры</h5>
+                    </div>
+                    <div class="button-zone">
+                        <div class="button-size" data-size="30cm">
+                            30 см
+                        </div>
+                        <div class="button-size-not-selected" data-size="40cm">
+                            40 см
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="price-and-button-zone">
+                    <div class="price">
+                        <p>От 560 ₽</p>
+                    </div>
+                    <div class="button-buy">
+                        <img src="Images/ShoppingCartSimple.png" height="24px" width="24px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="footer">
+            <p class="footer-main-text">Наша пицца</p>
+            <p class="footer-desc-text">«Все права защищены»</p>
+    </footer>
+
+</body>
+</html>
